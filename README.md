@@ -1,38 +1,53 @@
-🚗 Car Data Analysis Dashboard using Power BI
-This repository contains an interactive Power BI dashboard built using a comprehensive car dataset to explore and analyze key automotive parameters. The data includes vehicle specifications and features such as Make, Model, Body Type, Cylinders, Displacement, Mileage, and Safety Features (ABS, Door Ajar Warning, High Speed Alert, etc.).
+# Automobile Market Research Analysis (Interactive Dashboard creation using Power Bi)
+## Project Objective
+The objective of this project is to analyze car manufacturers based on the features offered in their various models. By identifying models with the most preferred features, the project aims to rank car makers according to consumer feature preferences. This analysis will help stakeholders understand market trends, customer priorities, and which brands are leading in delivering feature-rich vehicles.
 
-📊 Dashboard Insights
-Total Cars Analyzed: 5,080+
 
-Total Length (mm): 1.99 million+
+## Scope of Work:
 
-Total Cylinders: 2,080+
+This project focuses on analyzing car models and manufacturers based on customer-preferred features. It identifies models with the highest number of desirable features, compares car makers on feature-rich offerings, and highlights top-rated features across all models. The analysis also explores customer satisfaction, fuel efficiency, and segment-wise feature distribution, along with recommendations for adventure driving, child safety, and preferred body types. The goal is to provide actionable insights for both consumers and manufacturers through a feature-centric dashboard.
 
-Vehicle Makes: Includes brands like Mercedes, Maruti Suzuki, Hyundai, Mahindra, Tata, and more
+## Expected Outcome:
+An interactive and data-driven dashboard that helps consumers, analysts, and manufacturers make informed decisions about cars based on real-world feature preferences and segment performance.
 
-Body Types: SUV, Hatchback, Crossover, Convertible, Coupe, etc.
+## Tools & Technologies:
 
-Feature Analysis:
+- Microsoft Power BI
+- Excel/CSV for data input
+- DAX for custom KPIs and measures
 
-ABS (Anti-lock Braking System) distribution
+## Dataset used
+- <a href="https://docs.google.com/spreadsheets/d/1P2mB0Z4Gn9FyUBhj2cI443nRjnSgNx34/edit?usp=drive_link&ouid=101368825255311313144&rtpof=true&sd=true">Dataset</a>
 
-High Speed Alert System vs. Drive Modes
+## Questions (KPIs)
+Which car model offers the highest number of preferred features?
+Which car maker has the highest number of models with top-rated features?
+What is the average number of preferred features per car maker?
+Which features are most commonly preferred across all models?
+Which car maker has the highest customer satisfaction rating based on features?
+What is the distribution of preferred features across car segments (SUV, Sedan, Hatchback)?
+What percentage of a car maker's models include the top 5 preferred features?
+Which car maker leads in safety, entertainment, and performance features?
+Which car maker offers the best fuel efficiency?
+Which car is best suited for adventure driving?
+Which car model is best for child safety features?
+Which car body type is most preferred by customers?
 
-Door Ajar Warning vs. Cylinder count
+- Dashboard Interaction <a href="https://drive.google.com/file/d/1iNr_zARwUvlmUNuA7G058vQQGCcDUULA/view?usp=drive_link">View Dashboard</a>
 
-Central Locking vs. Displacement
+## Process
+- Verify data for any missing values and anomalies, and sort out the same.
+- Made sure data is consistent and clean with respect to data type, data format and values used.
+- Created kpi according to the questions asked.
+- load all all tables into one dashboard and apply slicer to make dynamic.
 
-Mileage Analysis: City mileage aggregated by cylinder count
+## Dashboard
 
-Filtering Capabilities: Interactive filters by Model and Body Type
+![Screenshot (495)](https://drive.google.com/file/d/1iNr_zARwUvlmUNuA7G058vQQGCcDUULA/view?usp=drive_link)
 
-🛠 Tools Used
-Microsoft Power BI for data visualization
 
-Excel (.xlsx) as the data source
 
-📁 Files Included
-Car_Data.xlsx: Raw dataset with car specifications and features
+## Final Conclusion:
 
-Power BI report (.pbix file) — [not uploaded in this repo, but mention if included]
+The feature-based car analysis provides valuable insights into how different car models and manufacturers align with customer preferences. By identifying the most feature-rich models and top-performing car makers, the analysis supports informed decision-making for both buyers and industry stakeholders. Key findings highlight the dominance of certain features, preferred body types, and the significance of segment-wise offerings. Overall, this project emphasizes the importance of feature integration in driving customer satisfaction, brand competitiveness, and market success.
 
